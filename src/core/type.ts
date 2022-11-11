@@ -1,5 +1,6 @@
 export type HooksContext = {
   ctx: any;
+  req: any;
 };
 
 export interface ContextRuntime {

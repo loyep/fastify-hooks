@@ -1,3 +1,29 @@
 {
-  "compilerOptions": {}
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "ES2015",
+    "target": "es2020",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": false,
+    "strict": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "skipDefaultLibCheck": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "importHelpers": true,
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }

@@ -1,6 +1,12 @@
 {
   "private": true,
-  "scripts": {},
-  "dependencies": {},
+  "scripts": {
+    "dev": "tsx src/index.ts --watch"
+  },
+  "dependencies": {
+    "fastify": "^4.8.1",
+    "tsx": "*",
+    "fastify-hooks": "workspace:*"
+  },
   "devDependencies": {}
 }
