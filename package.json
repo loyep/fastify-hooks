@@ -1,0 +1,36 @@
+{
+  "name": "fastify-hooks",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "asynchronous-local-storage": "^1.0.2"
+  },
+  "devDependencies": {
+    "fastify": "^4.8.1",
+    "typescript": "^4.4.3",
+    "prettier": "^2.4.1",
+    "tsup": "^6.4.0",
+    "tsx": "^3.12.0"
+  },
+  "peerDependencies": {
+    "fastify": "^4.8.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
