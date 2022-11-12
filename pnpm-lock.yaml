@@ -10,14 +10,17 @@ importers:
       fastify: ^4.8.1
       fastify-plugin: ^4.3.0
       prettier: ^2.4.1
+      reflect-metadata: ^0.1.13
       tslib: ^2.4.1
       tsup: ^6.4.0
       tsx: ^3.12.0
+      type-fest: ^3.2.0
       typescript: ^4.4.3
     dependencies:
       async_hooks: 1.0.0
       asynchronous-local-storage: 1.0.2
       fastify-plugin: 4.3.0
+      reflect-metadata: 0.1.13
     devDependencies:
       '@types/node': 16.18.3
       fastify: 4.9.2
@@ -25,6 +28,7 @@ importers:
       tslib: 2.4.1
       tsup: 6.4.0_typescript@4.8.4
       tsx: 3.12.0
+      type-fest: 3.2.0
       typescript: 4.8.4
 
   playground:
@@ -949,6 +953,10 @@ packages:
     resolution: {integrity: sha512-57frrGM/OCTLqLOAh0mhVA9VBMHd+9U7Zb2THMGdBUoZVOtGbJzjxsYGDJ3A9AYYCP4hn6y1TVbaOfzWtm5GFg==}
     engines: {node: '>= 12.13.0'}
 
+  /reflect-metadata/0.1.13:
+    resolution: {integrity: sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==}
+    dev: false
+
   /require-from-string/2.0.2:
     resolution: {integrity: sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==}
     engines: {node: '>=0.10.0'}
@@ -1176,6 +1184,11 @@ packages:
       '@esbuild-kit/esm-loader': 2.5.0
     optionalDependencies:
       fsevents: 2.3.2
+
+  /type-fest/3.2.0:
+    resolution: {integrity: sha512-Il3wdLRzWvbAEtocgxGQA9YOoRVeVUGOMBtel5LdEpNeEAol6GJTLw8GbX6Z8EIMfvfhoOXs2bwOijtAZdK5og==}
+    engines: {node: '>=14.16'}
+    dev: true
 
   /typescript/4.8.4:
     resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
